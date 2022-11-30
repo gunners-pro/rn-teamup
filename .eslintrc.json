@@ -45,10 +45,21 @@
         "newlinesBetween": "always",
         "groups": [
           "module",
-          "/^@shared/",
-          ["parent", "sibling", "index"]
+          "/^@components/",
+          "/^@screens/",
+          "/^@storage/",
+          "/^@theme/",
+          "/^@utils/",
+          [
+            "parent",
+            "sibling",
+            "index"
+          ]
         ],
-        "alphabetize": { "order": "asc", "ignoreCase": true }
+        "alphabetize": {
+          "order": "asc",
+          "ignoreCase": true
+        }
       }
     ],
     "react/function-component-definition": [
