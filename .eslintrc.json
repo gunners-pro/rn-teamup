@@ -39,6 +39,7 @@
       "error",
       "always"
     ],
+    "no-useless-catch": "off",
     "import-helpers/order-imports": [
       "warn",
       {
